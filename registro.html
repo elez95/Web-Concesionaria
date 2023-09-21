@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class = "menu">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+
+    <form action="mediopago.html" method="GET">
+        <fieldset>
+            <legend>REGISTRO</legend>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true">
+            <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true">
+            <input type="text" id="direccion" placeholder="Direccion" required="true">
+            <input type="number" id="dni" placeholder="DNI" required="true">
+            <input type="date" id="fecha-nac" required="true">
+            <input type="email" id="email" placeholder="Correo electronico" required="true">
+            <input type="password" id="password" placeholder="Contraseña" required="true">
+            <input type="radio" id="comprador" name="tipo-cliente" value="comprador" checked>
+            <label for ="comprador">Comprador</label>
+            <input type="radio" id="vendedor" name="tipo-cliente" value="vendedor">
+            <label for="vendedor">Vendedor</label>
+            <input type="radio" id="ambas" name="tipo-cliente" value="ambas">
+            <label for="ambas">Ambas</label>
+            
+            <input type="submit" value="Registrarse" onclick="validar()" href="mediopago.html">
+        
+        </fieldset>
+    </form>
+    <script src="validaciones.js"></script>
+</body>
+</html>

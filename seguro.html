@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro</title>
+    <link href="CSS/vistaSeguro.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class = "menu">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+    <div class="contenedor_seguros">
+       <div class="seguro">
+           <img src="imagenes/pagano.jpg" title="Pagano" alt="Pagano">
+           <p>Pagano</p>
+           </br>
+           <input type="button" value="Contratar" onclick="mensaje('Pagano')">
+       </div>
+
+       <div class="seguro" name ="namenosvi">
+        <img src="imagenes/nosvi.jpg" title="Nosvi" alt="Nosvi">
+        <p>Nosvi</p>
+        </br>
+        <input type="button" value="Contratar" onclick="mensaje('Nosvi')">
+    </div>
+    </div>
+
+    <script>
+        function mensaje(seguro){
+            var _seguro= seguro;
+            var cadena = "Seguro "  +_seguro+ " adquirido";
+            alert(cadena);
+        }    
+    </script>
+</body>
+</html>

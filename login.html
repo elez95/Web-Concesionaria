@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class = "menu">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+
+    <form method="POST">
+        <fieldset>
+            <legend>LOGIN</legend>
+            <input type="text" id="user" placeholder="Nombre de usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <input type="submit" value="Registrarse" onclick="validar_usuario()">
+        </fieldset>
+    </form>
+
+    <script>
+        function validar_usuario(){
+            var usuario_registrado = "juan perez";
+            var usuario_ingresado = document.getElementById("user").value;
+            var password = document.getElementById("password").value;
+            
+            if(usuario_ingresado === ""){
+                alert("Campo nombre usuario vacío");
+               
+            }    
+            if(password === ""){
+                alert("Campo contraseña vacío");
+                
+            }
+
+
+            if(usuario_registrado === usuario_ingresado.toLowerCase() && usuario_ingresado != ""){
+                if(password != ""){
+                    alert("Ingresaste correctamente");
+                }
+            } else {
+                console.log(typeof usuario_ingresado);
+                //document.getElementById("user").value = "";
+                alert("El usuario o contraseña no existe");
+            }
+            
+        }
+
+        
+    </script>
+</body>
+</html>

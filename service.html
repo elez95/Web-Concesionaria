@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class = "menu">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+
+    <form method="POST">
+        <fieldset>
+            <legend>PEDIR SERVICE</legend>
+            <input type="date" id="fecha" min="2021-11-12" required>
+            </br>
+
+            <label for="hora" >Horario de service</label>
+            <select id="hora" name="hora" required="true">
+                <option value="unaAM">1 AM</option>
+                <option value="dosAM">2 AM</option>
+                <option value="tresAM">3 AM</option>
+                <option value="cuatroAM">4 AM</option>
+                <option value="cincoAM">5 AM</option>
+                <option value="seisAM">6 AM</option>
+                <option value="sieteAM">7 AM</option>
+                <option value="ochoAM">8 AM</option>
+                <option value="nueveAM">9 AM</option>
+                <option value="diezAM">10 AM</option>
+                <option value="onceAM">11 AM</option>
+                <option value="doceAM">12 AM</option>
+                <option value="unaPM">1 PM</option>
+                <option value="dosPM">2 PM</option>
+                <option value="tresPM">3 PM</option>
+                <option value="cuatroPM">4 PM</option>
+                <option value="cincoPM">5 PM</option>
+                <option value="seisPM">6 PM</option>
+                <option value="sietePM">7 PM</option>
+                <option value="ochoPM">8 PM</option>
+                <option value="nuevePM">9 PM</option>
+                <option value="diezPM">10 PM</option>
+                <option value="oncePM">11 PM</option>
+                <option value="docePM">12 PM</option>
+            </select>
+            </br>
+            </br>
+
+            <label for="ubicacion">Ubicación del service</label>
+            <select id="ubicacion" name="ubicacion" required="true">
+                <option value="bs_as_pacheco">Bs As Pacheco</option>
+                <option value="bs_as_moron">Bs As Morón</option>
+                <option value="bs_as_ballester">Bs As Ballester</option>
+                <option value="bs_as_ramallo">Bs As Ramallo</option>
+                <option value="bs_as_junin">Bs As Junin</option>
+                <option value="caba_constitucion">CABA Constitución</option>
+                <option value="caba_flores">CABA Flores</option>
+                <option value="sta_fe_rosario">Santa Fe Rosario</option>
+                <option value="sta_fe_armstrong">Santa Fe Armstrong</option>
+                <option value="chubut_rivadavia">Chubut Comodoro Rivadavia</option>
+            </select>
+            </br>
+
+            <input type="submit" value="Pedir" onclick="validar_taller()">
+        </fieldset>
+    </form>
+
+    <script >
+
+    function validar_taller(){ 
+        var t = document.getElementById("ubicacion");
+        var selectedText = t.options[t.selectedIndex].text; 
+        var taller_ocupado = "CABA Flores";
+
+        if (selectedText === taller_ocupado){
+            alert("No está disponible");
+           // window.location.href = 'index.html';
+        } else {
+            
+            alert("Service adquirido");
+           // window.location.href = 'index.html';
+        }
+    }
+
+    </script>
+</body>
+</html>

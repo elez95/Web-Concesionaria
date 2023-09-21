@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: ghostwhite;
+}
+
+.menu{
+    text-align:center;
+}
+
+.menu li{
+    display:inline-block;
+    padding:15px;
+    margin:20px;
+}
+
+.menu li a{
+    font-variant: small-caps;
+}
+
+a:link, a:visited {
+    background-color: lightskyblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(24, 144, 219);
+  }
+
+
+div.contenedor_autos{
+    display:inline-block;
+    position:relative;
+    margin:50px;
+    padding:15px;
+    width: 80%;
+    height: 500px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+div.auto{
+    display: inline-block;
+    position:relative;
+    border: 2px solid black;
+    /*border-radius: 10px;*/
+    margin: 10px;
+    box-sizing: border-box;
+    padding:3px 5px;
+    background-color: mintcream;
+    width: 15%;
+    height: 300px;
+    text-align: center;
+    
+}
+
+div.auto img{
+    width: 100%;
+}
+
+form{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+
+}
+
+form.pagos{
+    display: inline-block;
+}
+
+form input{
+    display:block;
+    margin:auto;
+    margin-top: 5px;
+    border: none;
+   
+}
+
+form fieldset{
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+form legend{
+    background: rgb(24, 144, 219);
+    color:aliceblue;
+}
+
+label{
+    background-color:lightskyblue ;
+}
+
+h1{
+    text-align: center;
+}
+
+

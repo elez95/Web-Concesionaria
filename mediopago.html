@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medio de pago</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <ul class = "menu">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+    <h1>Llena los campos del medio de pago que tengas</h1>
+    <form method="POST" class="pagos" name="form1">
+        <fieldset>
+            <legend>Tarjeta de credito</legend>
+            <input type="number" id="num-tarjeta" placeholder="Numero de tarjeta" name="nametarjeta" required>
+            <input type="submit" value="Registrarse" onclick="validar_tarjeta(document.form1.nametarjeta,16)">
+            
+        </fieldset>
+    </form>
+
+    <form method="POST" class="pagos">
+        <fieldset>
+            <legend>Mercado pago</legend>
+            <input type="text" id="user-mercado-pago" placeholder="Usuario Mercado Pago" required>
+            <input type="submit" value="Registrarse" onclick="validar_mercado_pago()">
+            
+        </fieldset>
+    </form>
+
+    <form method="POST" class="pagos" name="form3">
+        <fieldset>
+            <legend>Cuenta bancaria</legend>
+            <input type="text" id="titular" placeholder="Nombre titular" required>
+            <input type="number" id="num-cbu" placeholder="Numero de CBU" name="namecbu" required>
+            <input type="number" id="num-cuil" placeholder="CUIL" name="namecuil" required>
+            <input type="submit" value="Registrarse" onclick="validar_cuenta_bancaria(document.form3.namecbu,22,document.form3.namecuil,11)">
+            
+        </fieldset>
+    </form>
+    
+    <script src="mediopago.js"></script>
+</body>
+</html>
