@@ -126,6 +126,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   
 </table>
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ## 2 Scope Statement
 
 ### 2.1 Project Description/Objectives
@@ -147,6 +149,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   > Que se pueda realizar compra/venta de vehículos mediante el uso del sistema.
 ### 2.7 Scope
   > Poder ver información de vehículos y realizar una compra/venta.
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
   
 ## 3 Business Requirements Information
 
@@ -381,6 +385,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>   
 </table>
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ## 4 Functional Requirements
 
 ### 4.1 User Stories
@@ -430,7 +436,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  </table>
 
-
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 ### EPIC: SEGURO Y GARANTÍA
 
@@ -461,6 +467,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
 </table>
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ### EPIC: SERVICE
 
 <table border="1">
@@ -482,7 +490,9 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
 </table>
 
-### EPIC COMPRA/VENTA DE VEHÍCULOS
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
+### EPIC: COMPRA/VENTA DE VEHÍCULOS
 
 <table border="1">
 <tr>
@@ -533,6 +543,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   </td>
 </tr>
 </table>
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 ### EPIC: ADMINISTRACIÓN DE LA APLICACIÓN
 
@@ -611,6 +623,8 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
 </table>
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ### EPIC: CONFIGURACIÓN DE LA APLICACIÓN
 
 <table border="1">
@@ -656,9 +670,13 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
 </table>
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ### 4.2 Diagrama de Clases
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama%20de%20clases.png" width = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 ### 4.3 Diagrama de Secuencia
 
@@ -668,11 +686,15 @@ Se guardan los datos del cliente y se le pregunta qué medio de pago tiene. Si t
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_1_Registro_cliente.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Diagrama 1: Registro cliente (Alternativa).
 
 Se ingresan datos erróneos que no permiten el almacenamiento de los datos.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_1_Alternativa.drawio.png" width = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 #### Diagrama 2: Pedir service.
 
@@ -680,11 +702,15 @@ Se consulta si hay un día y horario disponible para la reserva escogida por el 
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_2_Pedir_service.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Diagrama 2: Pedir service (Alternativa).
 
 No hay turno disponible para el día y horario escogido por el cliente.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_2_Alternativa.drawio.png" width = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 #### Diagrama 3: Pedir seguro.
 
@@ -692,11 +718,15 @@ Se muestran los seguros disponibles (hasta ahora dos). El cliente elige uno y se
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_3_Pedir_Seguro.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Diagrama 4: Señar vehículo.
 
 Se verifican al mismo tiempo la veracidad de los datos del vendedor y el comprador. Luego se realiza el pago.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_4_Seniar_auto.drawio.png" width = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 #### Diagrama 5: Pedir garantía.
 
@@ -704,34 +734,52 @@ Se verifica que se le haya hecho un service previamente al service.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_5_Pedir_Garant%C3%ADa.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 ### 4.4 Diagrama de Actividad
 
 #### Diagrama 1: Pedir service
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_1_Pedir_Service.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Diagrama 2: Adquirir seguro.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_2_Adquirir_Seguro.drawio.png" width = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 #### Diagrama 3: Comprar vehículo.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_3_Comprar_auto.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Diagrama 4: Registro de medio de pago.
 
 <img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_4_Registro.drawio.png" width = "400">
 
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
+
 #### Subdiagrama: El cliente paga.
 
-<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/SubDiagrama_El_cliente_paga.drawio.png" width = "400">
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/SubDiagrama_El_cliente_paga.drawio.png" width = "350">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 #### Diagrama 5: El cliente envía un reporte.
 
-<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/SubDiagrama_El_cliente_paga.drawio.png" width = "400">
+<img src="imagenes-readme/Diagrama_5_Reportes.drawio.png" height = "400">
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
 
 ### 4.5 Test Cases
 
-Todos los casos de prueba fuerons adjuntados en un archivo Excel.
+Todos los casos de prueba fuerons adjuntados en un archivo Excel. Puedes consultar los casos haciendo [clic aquí](https://docs.google.com/spreadsheets/d/1JUtmRDZnVWHsHdf8S6IPLagdE9wPDDlE/edit?usp=sharing&ouid=114462603984226195393&rtpof=true&sd=true).
 
 ## Logros
+
+Este proyecto fue muy importante para dar a conocer la importancia que merece la preparación de un sistema antes de encarar su desarrollo. Un buen análisis de requerimientos, conociendo los criterios de aceptación del cliente y elaborando un modelo conceptual, le da robustez a la documentación y también seguridad al desarrollo de todos los diseños del sistema. Por lo tanto, en este proyecto se hizo hincapié a los procesos de evaluación de los requisitos de un cliente, desde el relevamiento de requerimientos, entrevistas al cliente, creación de user stories, planteamiento de los diagramas de secuencia, los diagramas de actividad y los casos de prueba.
+
+[Volver a Tabla de contenidos](#tabla-de-contenidos)
