@@ -1,14 +1,45 @@
-_# Web Concesionaria
+![Header](imagenes-readme/header-github.jpg)
+
+# Web Concesionaria
 
 Documentación y aplicación realizada como parte del proyecto de la materia Especificación de Software del tercer año de la carrera Licenciatura en Sistemas de la Universidad Nacional General Sarmiento.
 
-Web concesionaria es un proyecto que involucra todos los procesos de la especificación del software. Se presentará un FRD (<i>Funcional Requirements Document</i>) que detalla las funciones y características que la aplicación debe tener para satisfacer las necesidades y requerimientos del cliente o usuario final. Este README tiene como prioridad mostrar la resolución del proyecto requerido  [(Click para ver)](https://drive.google.com/file/d/1tbtCckbOMqPqSq6-NatIitBgfBcZY125/view?usp=sharing). Por lo tanto la documentación del código de la aplicación no es presentada, porque el objetivo principal del proyecto es mostrar la puesta en práctica de los conceptos de FRD.
+Web concesionaria es un proyecto que involucra todos los procesos de la especificación del software. Se presentará un FRD (<i>Funcional-Requirements Document</i>) que detalla las funciones y características que la aplicación debe tener para satisfacer las necesidades y requerimientos del cliente o usuario final. Este README tiene como prioridad mostrar la resolución del proyecto requerido  [(Clic para ver)](https://drive.google.com/file/d/1tbtCckbOMqPqSq6-NatIitBgfBcZY125/view?usp=sharing). Por lo tanto la documentación del código de la aplicación no es presentada, porque el objetivo principal del proyecto es mostrar la puesta en práctica de los conceptos de FRD.
 
 ## Tabla de contenidos
 
 - [Introducción](#introducción)
+- [1 FR Change History](#1-fr-change-history)
+- [2 Scope Statement](#2-scope-statement)
+  - [2.1 Project Description/Objectives](#21-project-descriptionobjectives)
+  - [2.2 Justification](#22-justification)
+  - [2.3 Assumptions](#23-assumptions)
+  - [2.4 Constraints](#24-constraints)
+  - [2.5 Dependencies](#25-dependencies)
+  - [2.6 Acceptance Criteria](26-acceptance-criteria-critical-succes-factors)
+  - [2.7 Scope](#27-scope)
+- [3 Business Requirements Information](#3-business-requirements-information)
+  - [3.1 Business Rules](#31-business-rules)
+  - [3.2 Business Requirements](#32-business-requirements) 
+- [4 Functional Requirements](#4-functional-requirements)
+  - [4.1 User Stories](#41-user-stories) 
+    - [Epic: Registro](#epic-registro)
+    - [Epic: Seguro y Garantía](#epic-seguro-y-garantía)
+    - [Epic: Service](#epic-service)
+    - [Epic: Compra/Venta de vehículos](#epic-compraventa-de-vehículos)
+    - [Epic: Administración de la aplicación](#epic-administración-de-la-aplicación)
+    - [Epic: Configuración de la aplicación](#epic-configuración-de-la-aplicación)
+  - [4.2 Diagrama de clases](#42-diagrama-de-clases)
+  - [4.3 Diagrama de secuencia](#43-diagrama-de-secuencia)
+  - [4.4 Diagrama de actividad](44-diagrama-de-actividad)
+  - [4.5 Test cases](#45-test-cases)
+- [Logros](#logros) 
 
 ## Introducción
+
+<b>Kilmister</b>, empresa fundada por Lemmy, un ex CEO de una importante automotriz francesa, nos solicita una aplicación web para facilitar la compra/venta de vehículos multimarca, llevar el control de los vehículos que se comercializan y administrar el contacto con los clientes. El alcance que se requiere es a nivel nacional. (Para ver la solicitud del cliente completa [(Clic aquí)](https://drive.google.com/file/d/1tbtCckbOMqPqSq6-NatIitBgfBcZY125/view?usp=sharing).
+
+El siguiente documento presenta el análisis de requerimientos de la solicitud del cliente, el diagrama de clases que modelará el sistema, los diagramas de secuencia, de actividad y todos los casos de prueba.
 
 ## Functional Requirement Document
 #### Sistema de Compra/Venta de Vehículos
@@ -43,34 +74,86 @@ Web concesionaria es un proyecto que involucra todos los procesos de la especifi
 
 ## 1 FR Change History
 
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Date of change</td>
+    <td>Owner of change</td>
+    <td>Description</td>
+  </tr>
+   <tr>
+    <td>Diagrama de clases</td>
+    <td>5/11/2021</td>
+    <td>Elias</td>
+    <td>Reestructuración de algunas clases del diagrama.</td>
+  </tr>
+   <tr>
+    <td>User stories</td>
+    <td>5/11/2021</td>
+    <td>Elias</td>
+    <td>Se agrega los criterios de aceptación de la user story 03 y 08.</td>
+  </tr>
+   <tr>
+    <td>Subdiagrama de actividad "El cliente paga"</td>
+    <td>5/11/2021</td>
+    <td>Elias</td>
+    <td>Se agreaga una rama más para tener testeado todos los medios de pago.</td>
+  </tr>
+   <tr>
+    <td>User stories de requerimientos no funcionales</td>
+    <td>9/11/2021</td>
+    <td>Elias</td>
+    <td>Se añaden las user stories de los requerimientos no funcionales.</td>
+  </tr>
+   <tr>
+    <td>Test automatizado</td>
+    <td>20/11/2021</td>
+    <td>Elias</td>
+    <td>Se añaden las automatizaciones de las funcionalidad de Registro, Service y Login.</td>
+  </tr>
+   <tr>
+    <td>Business Requirements</td>
+    <td>20/11/2021</td>
+    <td>Elias</td>
+    <td>Se añade el requerimiento funcional Login</td>
+  </tr>
+  <tr>
+    <td>User story Login</td>
+    <td>20/11/2021</td>
+    <td>Elias</td>
+    <td>Se añade la user story Login.</td>
+  </tr>
+  
+</table>
+
 ## 2 Scope Statement
 
-- 2.1 Project Description/Objectives<br>
+### 2.1 Project Description/Objectives
   - 2.1.1 Project Description/Objectives<br>
     > Necesitamos un sistema que permita a los potenciales clientes poder realizar una compra/venta de vehículos.
   - 2.2 Non-Financial Benefits
     > Que sea más fácil de usar para los clientes y compatible con los navegadores actuales.
   - 2.1.3 Method for Measuring Benefits
     > El sistema debe pedir a los clientes una encuesta de satisfacción.
-- 2.2 Justification
+### 2.2 Justification
   > Queremos facilitar la compra/venta de vehículos para los clientes.
-- 2.3 Assumptions
+### 2.3 Assumptions
   > El presupuesto para realizar el sistema está asegurado por 3 meses.
-- 2.4 Constraints
+### 2.4 Constraints
   > El equipo completo tiene que realizar el sistema.
-- 2.5 Dependencies
+### 2.5 Dependencies
   > No hay dependencias
-- 2.6 Acceptance Criteria (Critical Succes Factors)
+### 2.6 Acceptance Criteria (Critical Succes Factors)
   > Que se pueda realizar compra/venta de vehículos mediante el uso del sistema.
-- 2.7 Scope
+### 2.7 Scope
   > Poder ver información de vehículos y realizar una compra/venta.
   
 ## 3 Business Requirements Information
 
-- 3.1 Business Rules <br>
+### 3.1 Business Rules
   > Todos los montos se cobran en ARS (Peso Argentino).<br>
    El password debe ser alfanumérico con mínimo de 8 caracteres.
-- 3.2 Business Requirements
+### 3.2 Business Requirements
 
 ### Clasificación de requerimientos
 
@@ -300,7 +383,7 @@ Web concesionaria es un proyecto que involucra todos los procesos de la especifi
 
 ## 4 Functional Requirements
 
-- 4.1 User Stories
+### 4.1 User Stories
 
  ### EPIC: REGISTRO
 
@@ -528,7 +611,7 @@ Web concesionaria es un proyecto que involucra todos los procesos de la especifi
 </tr>
 </table>
 
-### CONFIGURACIÓN DE LA APLICACIÓN
+### EPIC: CONFIGURACIÓN DE LA APLICACIÓN
 
 <table border="1">
 <tr>
@@ -573,4 +656,82 @@ Web concesionaria es un proyecto que involucra todos los procesos de la especifi
 </tr>
 </table>
 
-- 4.2 Diagrama de Clases
+### 4.2 Diagrama de Clases
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama%20de%20clases.png" width = "400">
+
+### 4.3 Diagrama de Secuencia
+
+#### Diagrama 1: Registro cliente.
+
+Se guardan los datos del cliente y se le pregunta qué medio de pago tiene. Si tiene tarjeta de crédito se guardan sus datos. Si tiene cuenta bancaria se guardan los datos de la cuenta.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_1_Registro_cliente.drawio.png" width = "400">
+
+#### Diagrama 1: Registro cliente (Alternativa).
+
+Se ingresan datos erróneos que no permiten el almacenamiento de los datos.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_1_Alternativa.drawio.png" width = "400">
+
+#### Diagrama 2: Pedir service.
+
+Se consulta si hay un día y horario disponible para la reserva escogida por el cliente. Luego de confirmar la disponibilidad se realiza el pago.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_2_Pedir_service.drawio.png" width = "400">
+
+#### Diagrama 2: Pedir service (Alternativa).
+
+No hay turno disponible para el día y horario escogido por el cliente.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_2_Alternativa.drawio.png" width = "400">
+
+#### Diagrama 3: Pedir seguro.
+
+Se muestran los seguros disponibles (hasta ahora dos). El cliente elige uno y se inicia el cobro. Se descuenta la comisión a la aseguradora. Se inicia a contabilizar el mes.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_3_Pedir_Seguro.drawio.png" width = "400">
+
+#### Diagrama 4: Señar vehículo.
+
+Se verifican al mismo tiempo la veracidad de los datos del vendedor y el comprador. Luego se realiza el pago.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_4_Seniar_auto.drawio.png" width = "400">
+
+#### Diagrama 5: Pedir garantía.
+
+Se verifica que se le haya hecho un service previamente al service.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Funcionalidad_5_Pedir_Garant%C3%ADa.drawio.png" width = "400">
+
+### 4.4 Diagrama de Actividad
+
+#### Diagrama 1: Pedir service
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_1_Pedir_Service.drawio.png" width = "400">
+
+#### Diagrama 2: Adquirir seguro.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_2_Adquirir_Seguro.drawio.png" width = "400">
+
+#### Diagrama 3: Comprar vehículo.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_3_Comprar_auto.drawio.png" width = "400">
+
+#### Diagrama 4: Registro de medio de pago.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/Diagrama_4_Registro.drawio.png" width = "400">
+
+#### Subdiagrama: El cliente paga.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/SubDiagrama_El_cliente_paga.drawio.png" width = "400">
+
+#### Diagrama 5: El cliente envía un reporte.
+
+<img src="https://github.com/elez95/Web-Concesionaria/blob/main/imagenes-readme/SubDiagrama_El_cliente_paga.drawio.png" width = "400">
+
+### 4.5 Test Cases
+
+Todos los casos de prueba fuerons adjuntados en un archivo Excel.
+
+## Logros
