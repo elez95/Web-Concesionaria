@@ -170,7 +170,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 <table border="1">
 <tr>
   <td>1.</td>
-  <td>La aplicación debe ser fácil de usar para los clientes.</td>
+  <td>La aplicación debe pedir a los clientes una encuesta de satisfacción.</td>
   <td>Usabilidad</td>
 </tr>
  <tr>
