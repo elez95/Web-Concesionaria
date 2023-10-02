@@ -200,7 +200,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>7.</td>
-  <td>El vendedor debe registrar el vehíclo que desea vender, si acepta permuta y una descripción del mismo con fotos.</td>
+  <td>El vendedor debe registrar el vehículo que desea vender, si acepta permuta y una descripción del mismo con fotos.</td>
   <td>Funcional</td>
 </tr>
  <tr>
@@ -245,7 +245,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>16.</td>
-  <td>La aplicación debe verificar la veracidad del comprador y el vendedor.</td>
+  <td>La aplicación debe verificar la veracidad del comprador y del vendedor.</td>
   <td>Funcional</td>
 </tr>
  <tr>
@@ -265,7 +265,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>20.</td>
-  <td>La aplicación debe quitar la publiacción del vehículo una vez que el comprador haya depositado la mitad del valor.</td>
+  <td>La aplicación debe quitar la publicación del vehículo una vez que el comprador haya depositado la mitad del valor.</td>
   <td>Funcional</td>
 </tr>
  <tr>
@@ -280,7 +280,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>23.</td>
-  <td>La aplicación debe transferir el dinero al vendedor luego de contretarse la operación, descontando 5% del total para la comisión.</td>
+  <td>La aplicación debe transferir el dinero al vendedor luego de concretarse la operación, descontando 5% del total para la comisión.</td>
   <td>Funcional</td>
 </tr>
  <tr>
@@ -355,12 +355,12 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>38.</td>
-  <td>El administrador debe llamar a un cliente que sea detectado como inclumplidor.</td>
+  <td>El administrador debe llamar a un cliente que sea detectado como incumplidor.</td>
   <td>Usabilidad</td>
 </tr>
  <tr>
   <td>39.</td>
-  <td>El director estaría interesado en que la aplicación elabore un registro de una cantidad determinada de inclumplimientos automáticamente.</td>
+  <td>El director estaría interesado en que la aplicación elabore un registro de una cantidad determinada de incumplimientos automáticamente.</td>
   <td>Funcional</td>
 </tr>
  <tr>
@@ -375,7 +375,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 </tr>
  <tr>
   <td>42.</td>
-  <td>El director estaría interesado en obtener reportes mensuales de cantidad de vehículos publicados, cantidad de operaciones realizadas, cantidad de clientes registrados y cantidad de consultas/reclamos</td>
+  <td>El director estaría interesado en obtener reportes mensuales de cantidad de vehículos publicados, cantidad de operaciones realizadas, cantidad de clientes registrados y cantidad de consultas/reclamos.</td>
   <td>Funcional</td>
 </tr>
 <tr>
