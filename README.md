@@ -2,7 +2,7 @@
 
 # Web Concesionaria
 
-Documentación y aplicación realizada como parte del proyecto de la materia Especificación de Software del tercer año de la carrera Licenciatura en Sistemas de la Universidad Nacional General Sarmiento.
+Documentación y aplicación realizada como parte del proyecto de la materia Especificación y Verificación del Software del tercer año de la carrera Licenciatura en Sistemas de la Universidad Nacional General Sarmiento.
 
 Web concesionaria es un proyecto que involucra todos los procesos de la especificación del software. Se presentará un FRD (<i>Funcional-Requirements Document</i>) que detalla las funciones y características que la aplicación debe tener para satisfacer las necesidades y requerimientos del cliente o usuario final. Este README tiene como prioridad mostrar la resolución del proyecto requerido  [(Clic para ver)](https://drive.google.com/file/d/1tbtCckbOMqPqSq6-NatIitBgfBcZY125/view?usp=sharing). Por lo tanto la documentación del código de la aplicación no es presentada, porque el objetivo principal del proyecto es mostrar la puesta en práctica de los conceptos de FRD.
 
@@ -161,7 +161,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
 
 ### Clasificación de requerimientos
 
-- Funcional: Caracteríticas, capacidades y seguridad.
+- Funcional: Características, capacidades y seguridad.
 - Usabilidad: Factores humanos, ayuda, documentación, navegación.
 - Soporte: Adaptabilidad, facilidad de mantenimiento, internacionalización, configurabilidad.
 - Implementación: Limitación de recursos, lenguajes, herramientas, hardware.
