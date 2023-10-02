@@ -414,7 +414,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   <td align="center">
     <b>User story 03</b><br><br> 
     <p align="left">
-      Como vendedor quiero registrar el vehículo e indicar si está a la venta o permuta junto una descripción y fotos.<br><br> CA: Si es un cliente que solo quiere realizar el service no debe indicar si está a la venta o permuta ni subir una descripción y fotos.
+      Como vendedor quiero registrar el vehículo e indicar si está a la venta o permuta junto a una descripción y fotos.<br><br> CA: Si es un cliente que solo quiere realizar el service no debe indicar si está a la venta o permuta ni subir una descripción y fotos.
     </p>
   </td>
 </tr>
@@ -522,7 +522,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   <td align="center">
     <b>User story 14</b><br><br> 
     <p align="left">
-      Como comprador quiero depositar la mitad del dinero dentro de las 72hs hábiles
+      Como comprador quiero depositar la mitad del dinero dentro de las 72hs hábiles.
     </p>
   </td>
 </tr>
@@ -585,7 +585,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   <td align="center">
     <b>User story 21</b><br><br> 
     <p align="left">
-     La aplicación debe pedir a los cliente una encuesta de satisfacción.<br><br>CA: Los campos para llenar la encuesta se dejan a criterio de los desarrolladores. Para completarla se debe estar registrado en la aplicación.
+     La aplicación debe pedir a los clientes una encuesta de satisfacción.<br><br>CA: Los campos para llenar la encuesta se dejan a criterio de los desarrolladores. Para completarla se debe estar registrado en la aplicación.
     </p>
   </td>
 </tr>
@@ -609,7 +609,7 @@ El siguiente documento presenta el análisis de requerimientos de la solicitud d
   <td align="center">
     <b>User story 24</b><br><br> 
     <p align="left">
-     El administrador debe llamar al cliente que sea detectado como inclumplidor.<br><br>CA: Por cada inclumplimiento se debe dar aviso.
+     El administrador debe llamar al cliente que sea detectado como incumplidor.<br><br>CA: Por cada incumplimiento se debe dar aviso.
     </p>
   </td>
 </tr>
